@@ -1,0 +1,5 @@
+ # Use .spelling to exclude words that shouldn't be spell checked
+
+# Files
+CV.pdf
+index.njk

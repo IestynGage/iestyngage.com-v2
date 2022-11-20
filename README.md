@@ -2,7 +2,7 @@
 
 A website including all the links relating to me. Project inspired by [projectbook](https://projectbook.code.brettchalupa.com/websites/link-list.html)
 
-## Develpment
+## Development
 
 ### Pre-requisites
 
@@ -30,3 +30,6 @@ so that it can re-generate the site.
 
 ### yarn clean-build
 Deletes the public package and re-generates the site and outputing the files into a new public folder
+
+## Todo
+Add favicon
