@@ -33,3 +33,4 @@ Deletes the public package and re-generates the site and outputing the files int
 
 ## Todo
 Add favicon
+Sitemap generator

@@ -5,11 +5,9 @@
 {% block mainContent %}
   <div class="main-content-center">
     <h1 class="title"> {{ title }} </h1>
-    <p> {{ simpleDescription }} </p>
+    <p class="center-text"> {{ simpleDescription }} </p>
     {% for link in links %}
-      <a class="button" tabindex=0 href="{{ link.hyperlink }}" target="_blank"> {{ link.name }}</a>
+      <a class="button center-text" tabindex=0 href="{{ link.hyperlink }}" target="_blank"> {{ link.name }}</a>
     {% endfor %}
-    <p> Made with ❤️ using
-    <a class="link" href="https://www.11ty.dev/" target="_blank" rel="nofollow"> 11ty</a>.
   </div>
 {% endblock %}

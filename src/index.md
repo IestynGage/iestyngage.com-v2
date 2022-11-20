@@ -1,7 +1,7 @@
 ---
 title: Iestyn Gage
 layout: "index.njk"
-simple-description: Software developer, UX enthusiast and climber
+simpleDescription: Software developer, UX enthusiast and climber
 links: [
   { 
     name: "LinkedIn",
