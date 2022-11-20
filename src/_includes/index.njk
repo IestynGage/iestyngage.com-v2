@@ -1,0 +1,15 @@
+{% extends "base.njk" %}
+{% block extraStyle %}
+    <link rel="stylesheet" href="/css/index.css">
+{% endblock %}
+{% block mainContent %}
+  <div class="main-content-center">
+    <h1 class="title"> {{ title }} </h1>
+    <p> {{ simpleDescription }} </p>
+    {% for link in links %}
+      <a class="button" tabindex=0 href="{{ link.href }}" target="_blank"> {{ link.name }}</a>
+    {% endfor %}
+    <p> Made with ❤️ using
+    <a class="link" href="https://www.11ty.dev/" target="_blank" rel="nofollow"> 11ty</a>.
+  </div>
+{% endblock %}

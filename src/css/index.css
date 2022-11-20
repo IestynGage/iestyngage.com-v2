@@ -1,0 +1,41 @@
+.main-content-center {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  gap: 8px;
+}
+
+a.button {
+  box-sizing: border-box;
+  color: #364652;
+  background: #C7DBE6;
+  border-radius: 6px;
+  padding: 12px;
+  text-decoration: none;
+  width: min(90vw, 360px);
+  display: block;
+
+  font-size: 22px;
+  text-align: center;
+}
+
+a.button:hover,
+a.button:focus {
+  color: white;
+  background: #2D4F62;
+}
+
+p {
+  font-size: 22px;
+  text-align: center;
+}
+
+a.link {
+  color: #364652;
+}
+
+.title {
+  margin-top: 2cm;
+}
