@@ -9,7 +9,7 @@
 a.button {
   box-sizing: border-box;
   color: #364652;
-  background: #C7DBE6;
+  background: #c7dbe6;
   border-radius: 6px;
   padding: 12px;
   text-decoration: none;
@@ -23,7 +23,7 @@ a.button {
 a.button:hover,
 a.button:focus {
   color: white;
-  background: #2D4F62;
+  background: #2d4f62;
 }
 
 .center-text {
