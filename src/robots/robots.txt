@@ -1,7 +1,9 @@
 # Why are you looking at this?
 
-User-agents: *
+User-agent: *
 
 Disallow: /assets/
+
+Host: https://www.iestyngage.com
 
 Sitemap: https://www.iestyngage.com/sitemap
