@@ -3,3 +3,5 @@
 User-agents: *
 
 Disallow: /assets/
+
+Sitemap: https://www.iestyngage.com/sitemap
