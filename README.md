@@ -46,4 +46,3 @@ Spell checks the project
 ## Todo
 
 Add favicon
-Sitemap generator
