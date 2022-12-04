@@ -6,6 +6,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/css");
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy({"./src/robots/robots.txt":"robots.txt"});
+  eleventyConfig.addPassthroughCopy({"./src/favicon":"/"});
 
   eleventyConfig.addTransform("htmlmin", function(content) {
     if( process.env.build === "production" && this.outputPath && this.outputPath.endsWith(".html") ) {
