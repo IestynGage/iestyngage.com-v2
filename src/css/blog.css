@@ -1,0 +1,21 @@
+.blog-title {
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.blog-contet {
+  text-rendering: optimizeSpeed;
+  max-width: 80ch;
+  margin: 0 auto;
+}
+
+.back {
+  color: unset;
+}
+
+article {
+  text-align: center;
+  border: solid;
+  border-radius: 0.3em;
+  padding: 2ch;
+}

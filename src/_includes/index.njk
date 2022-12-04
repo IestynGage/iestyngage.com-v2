@@ -3,11 +3,22 @@
 <link rel="stylesheet" href="/css/index.css">
 {% endblock %}
 {% block mainContent %}
-  <div class="main-content-center">
+  <div class="main-menu">
     <h1 class="title"> {{ title }} </h1>
     <p class="center-text"> {{ simpleDescription }} </p>
     {% for link in links %}
       <a class="button center-text" tabindex=0 href="{{ link.hyperlink }}" target="_blank"> {{ link.name }}</a>
     {% endfor %}
+  </div>
+  <div class="center-display">
+    <h2 class="blog-sub-title"> Blog posts </h2>
+    <ul>
+    {%- for post in collections.post -%}
+      <li> 
+        <a class="item-title" href="{{ post.url }}"> {{ post.data.blogTitle }} </a>
+        <p> Published: {{post.data.published}}</p>
+      </li>
+    {%- endfor -%}
+    </ul>
   </div>
 {% endblock %}

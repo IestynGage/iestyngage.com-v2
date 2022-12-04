@@ -1,0 +1,17 @@
+{% extends "base.njk" %}
+{% block extraStyle %}
+<link rel="stylesheet" href="/css/index.css">
+<link rel="stylesheet" href="/css/blog.css">
+<link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+{% endblock %}
+{% block mainContent %}
+  <div class="main-content-center">
+    <div class="blog-contet">
+      <a class="back" href="/"> < Main page </a>
+      <h1 class="blog-title"> {{ blogTitle }} </h1>
+      <article>
+        {{ content | safe }}
+      </article>
+    </article>
+  </div>
+{% endblock %}

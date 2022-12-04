@@ -1,4 +1,17 @@
-.main-content-center {
+:root {
+  center-size: min(90vw, 360px);
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  gap: 8px;
+  padding: 2cm 0 2cm 0;
+}
+
+.center-display {
   display: flex;
   flex-direction: column;
   width: 100vw;
@@ -31,6 +44,13 @@ a.button:focus {
   text-align: center;
 }
 
-.title {
-  margin-top: 2cm;
+.blog-sub-title {
+  border-bottom-style: solid;
+  width: min(90vw, 360px);
+  text-align: center;
+}
+
+.item-title {
+  font-size: 20px;
+  font-weight: 700;
 }
