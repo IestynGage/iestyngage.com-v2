@@ -17,5 +17,11 @@ article {
   text-align: center;
   border: solid;
   border-radius: 0.3em;
-  padding: 2ch;
+  padding: min(2vw, 1=-1o§  px);
 }
+
+/* @media only screen and (max-width: 500px) {
+  article {
+    padding: 0;
+  }
+} */

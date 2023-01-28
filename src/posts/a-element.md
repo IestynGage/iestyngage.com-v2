@@ -8,11 +8,11 @@ published: 04/12/2022
 ---
 
 <p>
-You can inline javascript in the href attribute, (you have to prefix the code with `javascript:`).
+You can inline JavaScript in the href attribute, (you have to prefix the code with `javascript:`).
 I was in disbelieve when I discovered this.
 I don't know why anyone would ever use this feature instead of, ya know a button?
 But now you know you can.
-The pain in the ass implincation of this is that users can post dangerous "links" that can run javascript on other clients.
+The pain in the ass implication of this is that users can post dangerous "links" that can run JavaScript on other clients.
 </p>
 <br/>
 <p>

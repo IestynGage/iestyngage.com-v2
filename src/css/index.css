@@ -1,5 +1,5 @@
 :root {
-  center-size: min(90vw, 360px);
+  /* center-size: min(90vw, 360px); */
 }
 
 .main-menu {
@@ -19,7 +19,7 @@
   gap: 8px;
 }
 
-a.button {
+.button {
   box-sizing: border-box;
   color: #364652;
   background: #c7dbe6;
@@ -28,13 +28,13 @@ a.button {
   text-decoration: none;
   width: min(90vw, 360px);
   display: block;
+  cursor: pointer;
 
   font-size: 22px;
   text-align: center;
 }
 
-a.button:hover,
-a.button:focus {
+.button:hover {
   color: white;
   background: #2d4f62;
 }
@@ -47,6 +47,10 @@ a.button:focus {
 .blog-sub-title {
   border-bottom-style: solid;
   width: min(90vw, 360px);
+  text-align: center;
+}
+
+.post-item {
   text-align: center;
 }
 
