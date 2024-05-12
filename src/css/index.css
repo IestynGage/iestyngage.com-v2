@@ -7,9 +7,18 @@
   flex-direction: column;
   width: 100vw;
   align-items: center;
-  gap: 8px;
-  padding: 2cm 0 2cm 0;
+  /* gap: 8px; */
+  /* padding: 2rem 0 2rem 0; */
 }
+/* 
+.blog-navigation{
+  width: 100vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 1em;
+  font-size: 1.4em;
+} */
 
 .center-display {
   display: flex;
@@ -57,4 +66,15 @@
 .item-title {
   font-size: 20px;
   font-weight: 700;
+}
+
+.year-title {
+  padding: 1rem 0;
+}
+
+.blog-post-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
 }

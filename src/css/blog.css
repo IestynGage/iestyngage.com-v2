@@ -1,12 +1,14 @@
 .blog-title {
   padding-bottom: 12px;
+  line-height: 1;
   padding-top: 12px;
 }
 
 .blog-contet {
-  text-rendering: optimizeSpeed;
+  text-rendering: optimizeLegibility;
   max-width: 80ch;
   margin: 0 auto;
+  max-width: 59ch;
 }
 
 .back {
@@ -14,10 +16,13 @@
 }
 
 article {
-  text-align: center;
-  border: solid;
-  border-radius: 0.3em;
-  padding: min(2vw, 1=-1o§  px);
+  /* text-align: center; */
+  overflow-wrap: break-word;
+  /* font-size: 1.2rem; */
+  /* line-height: 1.5; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 /* @media only screen and (max-width: 500px) {

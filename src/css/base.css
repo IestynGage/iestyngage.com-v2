@@ -47,8 +47,20 @@ footer {
   width: 100%;
 
   display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
+
+  justify-content: center;
+  align-items: center;
 }
+
+.blog-navigation{
+  width: 100vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 1em;
+  font-size: 1.4em;
+}
+
 /* CSS reset */
 
 h1 {
