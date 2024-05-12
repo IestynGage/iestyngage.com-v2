@@ -1,0 +1,25 @@
+{% extends "base.njk" %}
+{% block extraStyle %}
+<link rel="stylesheet" href="/css/index.css">
+<link rel="stylesheet" href="/css/about.css">
+{% endblock %}
+{% block header %}
+  <div class="main-menu">
+    <h1 class="title"> {{ title }} </h1>
+    <p class="center-text"> {{ simpleDescription }} </p>
+  </div>
+{% endblock %}
+{% block mainContent %}
+  <div class="center-display main-contet">
+    <p>
+      Hello 👋 I'm Iestyn Gage.
+    </p>
+    <p>
+      I'm a software engineer currently employed in Oxford. 
+      I work with a range of languages, frameworks and libraries but I predominantly use Java, Typescript, Springboot and React.
+    </p>
+    <p>
+      The best way to reach me is through LinkedIn.
+    </p>
+  </div> 
+{% endblock %}
