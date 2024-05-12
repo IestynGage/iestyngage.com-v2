@@ -2,14 +2,14 @@
 tags: post
 title: Iestyn Gage
 layout: "blog.njk"
-metaDescription: "Iestyn Gage; Software Engineer; blog; inline javascript anchor element"
+metaDescription: "Iestyn Gage; Software Engineer; blog; swift"
 blogTitle: The "I don't care about this" character
 date: 2024-05-04
 published: 04/05/2024
 dayMonth: 04/05
 ---
 
-It's been a while since
+It's been a while since I've used Swift, but they are two features I particularly love that I wish I saw in more languages.
 
 ```swift
 func foo(inputA:String, inputB:String) -> String {
@@ -20,12 +20,12 @@ let z = foo(inputA: "foo", inputB: "bar")
 ```
 <p>
 You may say "That looks tedious, wouldn't you eventually get tired of that?"
-But thats where my faviourite part of the language comes in, the "I don't care about that" character.
+But that's where my favourite part of the language comes in, the "I don't care about that" character.
 It's just a '_'.
 </p>
 
 <p>
-You can use it turn stop suppling labels to functions.
+You can use it turn stop supplying labels to functions.
 <p>
 
 ```swift
@@ -67,10 +67,10 @@ foo(f: {(p: String, _) in "Hello" + p })
 
 <p>
 And god dam does it make reading closures/lambda/callbacks a lot easier. 
-My main problem with closures is that when I'm working on exisiting closures; 
+My main problem with closures is that when I'm working on existing closures; 
 it's not my first port-of-call to look if another closure with an extra parameter exists.
 This occasionally means I do something idiotic where the closures is calculating some value that is already being supplied.
-This is specially problematic in javascipt/typescript where your supplying theses to a third part library component.
+This is specially problematic in JavaScript/TypeScript where your supplying theses to a third part library component.
 </p>
 
 <p>
